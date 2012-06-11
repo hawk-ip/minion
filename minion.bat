@@ -17,7 +17,7 @@ rem minion task:name --help
 
 set TASK=""
 
-if not "%*"=="" set TASK=--task=%*
+if not "%1"=="" set TASK=--task=%*
 
 set KOHANA_PATH=%~dp0
 
